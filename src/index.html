@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mmi app</title>
+</head>
+
+<body>
+    <div id="app" class="container">
+            <Link to="/hello">Texte du lien Hello</Link>
+        <Switch>
+            <Route path="/hello" component={Hello} />
+            <Route path="/mmi" component={Mmi} />
+
+        </Switch>
+    </div>
+</body>
+
+</html>
